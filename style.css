@@ -1,0 +1,101 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: -3px;
+
+}
+
+
+
+
+
+.first{
+    background-color:hsla(256, 72%, 46%, 1) ;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+p{
+    font-size: 18px;
+    color: ;
+}
+
+.mark{
+    border-radius: 90%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+
+}
+
+.reaction{
+    color: hsl(0, 100%, 67%);
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   background-color: rgb(238, 211, 211);
+   margin-bottom: 15px;
+   border-radius: 15px;
+   padding-top: 10px;
+}
+.memory{
+    color: hsl(39, 100%, 56%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: hsl(38, 23%, 84%);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-top: 10px;
+ }
+ .verbal{
+    display: grid;
+    color: hsl(166, 100%, 37%);
+    grid-template-columns: repeat(3,1fr);
+    background-color:hsl(166, 26%, 84%);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-top: 10px;
+ }
+ .visual{
+    color: hsl(234, 85%, 45%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:hsl(235, 25%, 82%);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-top: 10px;
+ }
+
+ a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+ }
+ .second p{
+    margin-left: 50px;
+    padding-right: 10px;
+ }
+ a:hover{
+    background-color: blue;
+ }
